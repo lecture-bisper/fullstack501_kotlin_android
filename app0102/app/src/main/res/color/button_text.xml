@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 태그의 상태와 색상을 함께 지정할 경우 사용하는 파일 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- 참고 : https://developer.android.com/reference/android/content/res/ColorStateList -->
+<!--  누르고 있을 때 -->
+  <item android:state_pressed="true"
+    android:color="#FF00FF00" />
+<!--  포커스가 주어졌을 경우 -->
+  <item android:state_focused="true"
+    android:color="#FF0000FF" />
+<!--  기본 상태 -->
+  <item android:color="#FFFF0000" />
+</selector>
