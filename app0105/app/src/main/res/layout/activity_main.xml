@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:padding="16dp">
+
+  <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnTheme"
+    android:text="테마를 사용하여 전체적인 색상 변경하기" />
+
+  <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnToolbar"
+    android:text="사용자 툴바 사용하기" />
+  
+  <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnAppCompatLib"
+    android:text="AppCompat 라이브러리로 기존 View 대체하기" />
+
+  <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnFragment"
+    android:text="프래그먼트 사용하기" />
+
+</LinearLayout>

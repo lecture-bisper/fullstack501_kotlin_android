@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 사용자 툴바 xml -->
+<androidx.appcompat.widget.Toolbar
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/toolbar2"
+  app:title="@string/app_name"
+  app:titleTextColor="@color/teal_200"
+  android:background="@color/purple_200"
+  app:menu="@menu/menu_main">
+</androidx.appcompat.widget.Toolbar>

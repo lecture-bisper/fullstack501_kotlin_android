@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:padding="16dp">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="16dp" >
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/basicTextVeiw"
+      android:text="기본 TextView 사용" />
+
+    <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/basicButton"
+      android:text="기본 Button 사용"/>
+
+    <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/basicImageView"
+      android:src="@drawable/cat03" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="16dp" >
+
+    <androidx.appcompat.widget.AppCompatTextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/appcompatTextView"
+      android:text="AppCompat 라이브러리의 TextVeiw" />
+
+    <androidx.appcompat.widget.AppCompatButton
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/appcompatButton"
+      android:text="AppCompat 라이브러리의 Button" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/appcompatImageView"
+      android:src="@drawable/cat03" />
+  </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
