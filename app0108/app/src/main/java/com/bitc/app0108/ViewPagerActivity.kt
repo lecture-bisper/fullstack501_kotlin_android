@@ -11,10 +11,14 @@ class ViewPagerActivity : AppCompatActivity() {
     val binding = ActivityViewPagerBinding.inflate(layoutInflater)
     setContentView(binding.root)
 
+//    뷰 페이저2에 사용할 프래그먼트 리스트 생성
     val fragmentList = listOf<Fragment>(OneFragment(), TwoFragment(), ThreeFragment())
-    val adapter = ViewPager2Adapter(this)
+//    뷰 페이저2 어뎁터 객체 생성
+    val viewPager2Adapter = ViewPager2Adapter(this)
 
-    adapter.fragment = fragmentList
-    binding.viewPager2.adapter = adapter
+//    뷰 페이저2 어뎁터에 사용할 프래그먼트 리스트 등록
+    viewPager2Adapter.fragmentList = fragmentList
+//    뷰 페이저2 에 어뎁터 등록
+    binding.viewPager2.adapter = viewPager2Adapter
   }
 }

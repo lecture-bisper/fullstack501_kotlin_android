@@ -29,6 +29,18 @@
     android:layout_height="wrap_content"
     android:id="@+id/btnViewPager2"
     android:text="@string/btnViewPager2" />
+
+  <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnIntentTest1"
+    android:text="@string/btnIntentTest1"/>
+
+  <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnIntentTest2"
+    android:text="@string/btnIntentTest2"/>
 </LinearLayout>
 
 
