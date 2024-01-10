@@ -1,0 +1,8 @@
+<resources>
+  <string name="app_name">app0109</string>
+  <string name="btnReceiver">브로드캐스트 리시버 사용하기</string>
+  <string name="btnRunReceiver">RUN RECEIVER</string>
+  <string name="btnServiceStart">서비스로 시간 확인</string>
+  <string name="btnServiceStop">서비스 정지</string>
+  <string name="btnService">서비스 사용하기</string>
+</resources>
