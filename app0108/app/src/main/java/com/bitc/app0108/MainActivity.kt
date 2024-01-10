@@ -75,6 +75,11 @@ class MainActivity : AppCompatActivity() {
 //      launch()를 실행하여 액티비티 실행 요청
       requestLauncher.launch(intent)
     }
+
+    binding.btnCalculator.setOnClickListener {
+      val intent = Intent(this, CalculatorActivity::class.java)
+      startActivity(intent)
+    }
   }
 }
 

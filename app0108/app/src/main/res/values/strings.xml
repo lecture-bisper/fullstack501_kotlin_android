@@ -12,4 +12,5 @@
   <string name="three_fragment">세번째 프래그먼트</string>
   <string name="btnIntentTest1">툴로 자동 생성된 엑티비티</string>
   <string name="btnIntentTest2">사용자가 직접 만든 엑티비티</string>
+  <string name="btnCalculator">계산기</string>
 </resources>
