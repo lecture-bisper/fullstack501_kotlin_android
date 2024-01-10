@@ -20,6 +20,11 @@ class MainActivity : AppCompatActivity() {
       val intent = Intent(this, MP3Activity::class.java)
       startActivity(intent)
     }
+
+    binding.btnProvider.setOnClickListener {
+      val intent = Intent(this, ProviderActivity::class.java)
+      startActivity(intent)
+    }
   }
 }
 

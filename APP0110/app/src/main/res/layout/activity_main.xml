@@ -17,4 +17,10 @@
     android:layout_height="wrap_content"
     android:id="@+id/btnMp3Player"
     android:text="@string/btnMp3Player" />
+
+  <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnProvider"
+    android:text="@string/btnProvider" />
 </LinearLayout>

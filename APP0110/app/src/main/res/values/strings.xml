@@ -9,4 +9,5 @@
   <string name="btnMp3Play">재  생</string>
   <string name="btnMp3Stop">정  지</string>
   <string name="btnMp3Pause">일시정지</string>
+  <string name="btnProvider">콘텐츠 프로바이더 사용하기</string>
 </resources>
