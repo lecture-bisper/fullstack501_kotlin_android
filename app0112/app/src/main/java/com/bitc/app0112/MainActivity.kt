@@ -20,5 +20,10 @@ class MainActivity : AppCompatActivity() {
       val intent = Intent(this, VolleyActivity::class.java)
       startActivity(intent)
     }
+
+    binding.btnGlide.setOnClickListener {
+      val intent = Intent(this, GlideActivity::class.java)
+      startActivity(intent)
+    }
   }
 }

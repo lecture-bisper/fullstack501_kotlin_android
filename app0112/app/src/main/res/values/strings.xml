@@ -10,4 +10,7 @@
   <string name="btnVolleyRequestJson">Json</string>
   <string name="btnVolley">Volley 사용하기</string>
   <string name="btnVolleyUrlClear">주소 지우기</string>
+  <string name="btnGlide">Glide 사용하기</string>
+  <string name="btnGlideUse">Glide로 이미지 변경하기</string>
+  <string name="etGlide">외부 서버 주소의 이미지 주소 입력</string>
 </resources>
